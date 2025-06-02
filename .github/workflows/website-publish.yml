@@ -19,6 +19,24 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup Golang with cache
+        uses: magnetikonline/action-golang-cache@v3
+        with:
+          go-version-file: src/go.mod
+
+      - name: Generate CLI Docs
+        working-directory: ./src
+        shell: bash
+        run: |
+          go run ./cmd/mdgen/mdgen.go generate
+
+      - name: Move CLI .md to Docs
+        shell: bash
+        run: |
+          mkdir -p ./website/docs/cli
+          mv ./src/cmd/mdgen/cli_markdown/* ./website/docs/cli/
+          rm -R ./src/cmd/mdgen/cli_markdown/
+
       - uses: actions/setup-node@v4
         with:
           node-version: 18
