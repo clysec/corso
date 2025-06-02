@@ -1,14 +1,6 @@
 name: Publish Website
 description: Publish website artifacts.
 
-inputs:
-  aws-iam-role:
-    description: IAM role for connecting to AWS
-  bucket:
-    description: Bucket to push the website files
-  cfid:
-    description: Cloudfront ID for invalidation
-
 runs:
   using: composite
   steps:

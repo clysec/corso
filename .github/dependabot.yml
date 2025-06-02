@@ -8,7 +8,7 @@ updates:
     schedule:
       interval: "weekly"
     reviewers:
-      - "alcionai/corso-maintainers"
+      - "scheibling"
     open-pull-requests-limit: 50
     rebase-strategy: "disabled"
 
@@ -18,9 +18,7 @@ updates:
     schedule:
       interval: "daily"
     reviewers:
-      - "alcionai/corso-maintainers"
-      - "ntolia"
-      - "gmatev"
+      - "scheibling"
     open-pull-requests-limit: 50
     rebase-strategy: "disabled"
 
@@ -30,6 +28,6 @@ updates:
     schedule:
       interval: "daily"
     reviewers:
-      - "alcionai/corso-maintainers"
+      - "scheibling"
     open-pull-requests-limit: 50
     rebase-strategy: "disabled"

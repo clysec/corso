@@ -1,66 +1,47 @@
-name: Publish website
+name: Deploy to GitHub Pages
+
 on:
   workflow_dispatch:
 
-permissions:
-  # required to retrieve AWS credentials
-  id-token: write
-  contents: write
-  packages: write
-  pull-requests: read
-
-# cancel currently running jobs if a new version of the branch is pushed
-concurrency:
-  group: push-website-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
-  SetEnv:
-    environment: Testing
+  build:
+    name: Build Docusaurus
     runs-on: ubuntu-latest
-    outputs:
-      version: ${{ steps.version.outputs.version }}
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # needed to get latest tag
+          fetch-depth: 0
 
-      - name: Get version string
-        id: version
-        run: |
-          echo version=$(git describe --tags --abbrev=0) | tee -a $GITHUB_OUTPUT
-
-  # ----------------------------------------------------------------------------------------------------
-  # --- Website Linting -----------------------------------------------------------------------------------
-  # ----------------------------------------------------------------------------------------------------
-
-  Website-Linting:
-    needs: [SetEnv]
-    environment: Testing
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Lint Website
-        uses: ./.github/actions/website-linting
+      - uses: actions/setup-node@v4
         with:
-          version: ${{ needs.SetEnv.outputs.version }}
+          node-version: 18
+          cache: npm
 
-  Publish-Website:
-    needs: [Website-Linting]
-    environment: Production
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: website
+      - name: Install dependencies
+        run: cd website && npm ci
 
-    steps:
-      - uses: actions/checkout@v4 # need to checkout to make the action available
+      - name: Build website
+        run: cd website && npm build || npm build
 
-      - name: Publish website
-        uses: ./.github/actions/publish-website
+      - name: Upload Build Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          aws-iam-role: ${{ secrets.AWS_IAM_ROLE }}
-          bucket: "corsobackup.io"
-          cfid: "E1W9NGI9YTVZ1A"
+          path: website/build
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
