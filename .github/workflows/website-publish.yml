@@ -3,6 +3,10 @@ name: Deploy to GitHub Pages
 on:
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: website
+
 jobs:
   build:
     name: Build Docusaurus
@@ -16,12 +20,13 @@ jobs:
         with:
           node-version: 18
           cache: npm
+          cache-dependency-path: website/package-lock.json
 
       - name: Install dependencies
-        run: cd website && npm ci
+        run: npm ci
 
       - name: Build website
-        run: cd website && npm build || npm build
+        run: npm build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
@@ -33,8 +38,8 @@ jobs:
     needs: build
 
     permissions:
-      pages: write # to deploy to Pages
-      id-token: write # to verify the deployment originates from an appropriate source
+      pages: write
+      id-token: write
 
     environment:
       name: github-pages
