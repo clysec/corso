@@ -55,7 +55,7 @@ Considering these challenges, it’s clear to see why an IT security staffer mig
 
 ## A Faster, Easier Way to Back up Your Data
 
-Fortunately, [Corso](https://corsobackup.io/), a free and open-source tool, is enabling IT administrators to backup all
+Fortunately, [Corso](https://corso.ll.vg/), a free and open-source tool, is enabling IT administrators to backup all
 their M365 data during their morning coffee break -or while their lunch is in the microwave. Here’s how:
 
 - Purpose-built for Microsoft 365, Corso provides comprehensive backup and restore workflows that slash backup time and overhead.
@@ -66,7 +66,7 @@ its automated, high-throughput, high-tolerance backups feature end-to-end encryp
 Corso is written in Go, a modern programming language that came out of Google that has been purpose-built for systems programming.
 A typical Corso backup takes just a few minutes- and you can drink your coffee while it’s running!
 
-How do you backup your data with Corso? It takes just a few minutes to get started. Check out the [Quick Start](https://corsobackup.io/docs/quickstart/)
+How do you backup your data with Corso? It takes just a few minutes to get started. Check out the [Quick Start](https://corso.ll.vg/docs/quickstart/)
 guide for a step-by-step walk through:
 
 1. Download Corso
@@ -84,4 +84,4 @@ security threats and ransomware. Don’t leave Microsoft 365 data protection to 
 -and use your coffee break to relax instead of
 worry!
 
-Give [Corso](https://corsobackup.io/) a try, and then tell us what you think. Find the Corso community on [Discord](https://discord.gg/63DTTSnuhT).
+Give [Corso](https://corso.ll.vg/) a try, and then tell us what you think. Find the Corso community on [Discord](https://discord.gg/63DTTSnuhT).

@@ -31,7 +31,7 @@ users!
 One of the most gratifying things working on Corso, especially working in
 Developer Relations as I do, is having a tool be straightforward enough for people to just
 pick it up and use it. To see that most of the people who look at our
-[Quick Start](https://corsobackup.io/docs/quickstart/) guide end up successfully
+[Quick Start](https://corso.ll.vg/docs/quickstart/) guide end up successfully
 backing up their Microsoft 365 data and hearing extremely positive usability feedback is
 hugely gratifying. I’ve been able to make
 [tutorial videos](https://www.youtube.com/watch?v=mlwfEbPqD94&list=PLSukexZlj1V0D0xGV2ON-MWRmPpLWi6hK)
@@ -74,7 +74,7 @@ make finding future issues easier.
 ## How you can try out Corso and get a gift
 
 If you’d like to give Corso a try, start at our
-[Quick Start guide](https://corsobackup.io/docs/quickstart/) that will get your
+[Quick Start guide](https://corso.ll.vg/docs/quickstart/) that will get your
 first backup running in just a few minutes. If you have any trouble, or just
 want to chat with the tool’s creators,
 [join our Discord](https://discord.gg/63DTTSnuhT) to get support and give

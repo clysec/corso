@@ -53,7 +53,7 @@ including those after time t2. Requesting changes from token a2 would give only
 the changes made after time t2. Tokens eventually expire though, so waiting a
 long time between backups (for example, a few days) may cause all items to be
 enumerated again. See Nica's
-[previous blog post on how backup frequency](https://corsobackup.io/blog/how-often-should-you-run-microsoft-365-backups)
+[previous blog post on how backup frequency](https://corso.ll.vg/blog/how-often-should-you-run-microsoft-365-backups)
 can affect performance.
 
 ## Corso full backups, incremental backups, and backup layout

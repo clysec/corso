@@ -28,7 +28,7 @@ chance of data loss like OneZone_IA won't work.
 Finally, there will be index data and metadata that may well be overwritten
 frequently. For more detail on this, and an exploration of non-AWS alternatives
 to S3, see our past article on
-[where to store your Corso data](https://corsobackup.io/blog/where-to-store-corso/).
+[where to store your Corso data](https://corso.ll.vg/blog/where-to-store-corso/).
 
 If your backup solution breaks one of these expectations, for example if you’re
 restoring from backups every single day, the advice in this article may not be
@@ -125,7 +125,7 @@ little as possible for storage.
 With these considerations, and with the best practices mentioned above, you
 should be able to build reliable backups with a minimal cost impact. If you’re
 ready to give Corso a try, check out our
-[Quickstart Guide](https://corsobackup.io/docs/quickstart/), or take a look at a
+[Quickstart Guide](https://corso.ll.vg/docs/quickstart/), or take a look at a
 recent article on backing up
-[large Exchange instances](https://corsobackup.io/blog/large-microsoft-365-exchange-backups/)
+[large Exchange instances](https://corso.ll.vg/blog/large-microsoft-365-exchange-backups/)
 with Corso.

@@ -68,7 +68,7 @@ export AWS_SECRET_ACCESS_KEY=CHANGEME123
 aws s3api create-bucket --bucket corso-backup --endpoint=http://127.0.0.1:9000
 ```
 
-To connect Corso to a local MinIO server with [`corso repo init`](https://corsobackup.io/docs/cli/corso-repo-init-s3/)
+To connect Corso to a local MinIO server with [`corso repo init`](https://corso.ll.vg/docs/cli/corso-repo-init-s3/)
 you’ll want to pass the `--disable-tls` flag so that it will accept an `http` connection. The full command would look like:
 
 ```bash

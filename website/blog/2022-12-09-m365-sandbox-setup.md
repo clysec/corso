@@ -19,7 +19,7 @@ I didn’t want to unintentionally reveal PII for my team members or other sensi
 
 Another reason to do this is if you’re looking to level up both your skills and
 want to experiment with being the admin in your own space
-rather than impacting other users on a production domain. It’s also a good step to experiment with [owning your own identity](https://corsobackup.io/blog/your-own-backups/).
+rather than impacting other users on a production domain. It’s also a good step to experiment with [owning your own identity](https://corso.ll.vg/blog/your-own-backups/).
 
 <!-- truncate -->
 
@@ -83,5 +83,5 @@ To learn more about populating your domain with dummy data, see
 [developer sandbox demo data](https://learn.microsoft.com/en-us/office/developer-program/install-sample-packs)
 to create users, email, calendar events, and other dummy data for testing.
 
-And if you want one more thing to try out with a sandbox domain, check out [Corso](https://corsobackup.io/),
+And if you want one more thing to try out with a sandbox domain, check out [Corso](https://corso.ll.vg/),
 a free and open-source backup tool. The sandbox is a great place to try it out!

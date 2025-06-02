@@ -145,7 +145,7 @@ this case, Corso will skip over the item but report this in the backup summary.
 ### Added
 - Groups and Teams service support available as a feature preview!  Channel messages and Files are now available for backup and restore in the CLI: `corso backup create groups --group '*'`
   - The cli commands for "groups" and "teams" can be used interchangeably, and will operate on the same backup data.
-  - New permissions are required to backup Channel messages.  See the [Corso Documentation](https://corsobackup.io/docs/setup/m365-access/#configure-required-permissions) for complete details.
+  - New permissions are required to backup Channel messages.  See the [Corso Documentation](https://corso.ll.vg/docs/setup/m365-access/#configure-required-permissions) for complete details.
   Even though Channel message restoration is not available, message write permissions are included to cover future integration.
   - This is a feature preview, and may be subject to breaking changes based on feedback and testing.
 

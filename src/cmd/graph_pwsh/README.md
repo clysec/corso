@@ -29,7 +29,7 @@ You need to have Docker installed on your system.
 
 The tool uses your existing Corso app to make Graph calls and for authentication
 you want `AZURE_TENANT_ID`, `AZURE_CLIENT_ID`, and `AZURE_CLIENT_SECRET` to be
-set as environment variables. You can read more about this [here](https://corsobackup.io/docs/setup/m365-access/).
+set as environment variables. You can read more about this [here](https://corso.ll.vg/docs/setup/m365-access/).
 You will then pass these into the container run so that authentication can be completed.
 
 ## Using the tool

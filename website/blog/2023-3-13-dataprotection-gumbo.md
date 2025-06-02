@@ -75,5 +75,5 @@ compared to the importance of the data stored. This is due to a combination of o
 for M365 customer data as well as budgetary considerations, especially on the smaller side of the SMB segment.
 
 To raise awareness for the importance of M365 backups and lower the entry barrier, our team introduced
-[Corso](https://corsobackup.io/) - a free, secure, and open-source backup solution for Microsoft 365. If you found my
-conversation with Demetrius and the topics above interesting, give [Corso](https://corsobackup.io/) a try!
+[Corso](https://corso.ll.vg/) - a free, secure, and open-source backup solution for Microsoft 365. If you found my
+conversation with Demetrius and the topics above interesting, give [Corso](https://corso.ll.vg/) a try!

@@ -1,7 +1,7 @@
 # Cookie Policy for Corso
 
 This is the Cookie Policy for Corso, accessible from
-https://corsobackup.io
+https://corso.ll.vg
 
 ## What Are Cookies
 

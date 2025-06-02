@@ -35,7 +35,7 @@ data in less than 20 minutes. That’s shorter than most meetings!
 
 As you install and set up Corso, take a look at my
 [instructional video](https://youtu.be/mlwfEbPqD94) and
-[Quick Start](https://corsobackup.io/docs/quickstart/) guide. Together, we walk
+[Quick Start](https://corso.ll.vg/docs/quickstart/) guide. Together, we walk
 you through downloading Corso, setting up an AWS S3 bucket with user access
 permissions, establishing Microsoft 365 access, and initiating a repository.
 From there, you can create your first backup and be ready to interact with it
@@ -108,7 +108,7 @@ allowfullscreen></iframe>
 
 Remember, don’t leave your data vulnerable to cyberattacks, accidental
 deletion, server outages, or any of the countless other sources of data loss.
-Try out [Corso](https://corsobackup.io/) for your company’s Microsoft 365 backup needs,
+Try out [Corso](https://corso.ll.vg/) for your company’s Microsoft 365 backup needs,
 and be sure to check out my Corso video
 [playlist](https://youtube.com/playlist?list=PLSukexZlj1V0D0xGV2ON-MWRmPpLWi6hK)
 on YouTube for more tips and tricks on protecting your data! Please come find me

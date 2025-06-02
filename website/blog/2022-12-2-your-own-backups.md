@@ -82,6 +82,6 @@ can see your data and that it's safe against hackers and ransomware.
 ![corso Screenshot](./images/corso_backup.png)
 
 Corso is available now, and we’d love to hear your thoughts!
-Download it, [give it a try,](https://corsobackup.io/docs/intro/) and
+Download it, [give it a try,](https://corso.ll.vg/docs/intro/) and
 [join us on Discord](https://discord.gg/63DTTSnuhT) to let
 us know what you think.

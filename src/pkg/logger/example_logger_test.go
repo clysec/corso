@@ -192,7 +192,7 @@ func Example_logger_clues_standards() {
 		// string containing sensitive info, wrap with Hide()
 		"user_name", clues.Hide("your_user_name@microsoft.example"),
 		// string partially concealed by a managed concealer.
-		"request_url", graph.LoggableURL("https://corsobackup.io"),
+		"request_url", graph.LoggableURL("https://corso.ll.vg"),
 		// a concealer-compliant struct, safe to add plainly
 		"storage_path", itemPath)
 }

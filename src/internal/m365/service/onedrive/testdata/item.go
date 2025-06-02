@@ -18,7 +18,7 @@ func NewStubDriveItem(
 	stubItem.SetSize(&size)
 	stubItem.SetCreatedDateTime(&created)
 	stubItem.SetLastModifiedDateTime(&modified)
-	stubItem.SetAdditionalData(map[string]any{"@microsoft.graph.downloadUrl": "https://corsobackup.io"})
+	stubItem.SetAdditionalData(map[string]any{"@microsoft.graph.downloadUrl": "https://corso.ll.vg"})
 
 	if isFile {
 		stubItem.SetFile(models.NewFile())

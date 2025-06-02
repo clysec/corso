@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: 'Corso',
   tagline: 'Free, Secure, and Open-Source Backup for Microsoft 365',
-  url: 'https://corsobackup.io',
+  url: 'https://corso.ll.vg',
   baseUrl: process.env.CORSO_DOCS_BASEURL || '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',

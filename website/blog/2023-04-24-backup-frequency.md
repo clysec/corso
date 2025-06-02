@@ -117,7 +117,7 @@ For other tools, you should evaluate if it uses storage efficiently:
 - Since there’s a per-object storage cost with most S3 tiers, backups should bundle small items together
 - Backups should include compression and de-duplication to be as small as possible
 
-[Take a look at some of our recent writing on selecting the best S3 storage tier](https://corsobackup.io/blog/aws-storage-class/)
+[Take a look at some of our recent writing on selecting the best S3 storage tier](https://corso.ll.vg/blog/aws-storage-class/)
 (spoiler warning it’s probably Glacier IR) for your S3 backups.
 
 ### You still haven’t answered my question: How often should you back up?

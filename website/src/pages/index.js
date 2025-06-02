@@ -32,7 +32,7 @@ export default function Home() {
           "@context" : "https://schema.org",
           "@type" : "WebSite",
           "name" : "Corso",
-          "url" : "https://corsobackup.io/"
+          "url" : "https://corso.ll.vg/"
         }
         `}</script>
       </Head>

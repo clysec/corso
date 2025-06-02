@@ -762,4 +762,4 @@ jobs:
     steps:
       - name: Validate docs
         run: |
-          curl https://corsobackup.io/docs/quickstart/ | grep https://github.com/alcionai/corso/releases/download/${{ env.CORSO_VERSION }}/corso_${{ env.CORSO_VERSION }}_Linux_x86_64.tar.gz
+          curl https://corso.ll.vg/docs/quickstart/ | grep https://github.com/alcionai/corso/releases/download/${{ env.CORSO_VERSION }}/corso_${{ env.CORSO_VERSION }}_Linux_x86_64.tar.gz
